@@ -1,0 +1,694 @@
+@font-face {
+    font-family: PT Sans;
+    src: url('./assets/fonts/PtSans/PTSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Jaffna;
+    src: url('./assets/fonts/postnobillsjaffna/PostNoBillsJaffna-Medium.ttf') format('truetype')
+}
+
+.header {
+    height: 44px;
+    width: 100%;
+    background: #000000;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.phoneImg {
+    width: 10px;
+    height: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 170px;
+}
+
+.phoneNumber {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+.logo2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+}
+
+.exit {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #969696;
+}
+
+.phoneImg1 {
+    width: 10px;
+    height: 7px;
+    margin-top: 17px;
+
+}
+
+.phoneImg2 {
+    width: 10px;
+    height: 10px;
+    margin-top: 15px;
+    padding-right: 5px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header2 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background: #0F0F0F;
+    height: 80px
+}
+
+.porten1 {
+    font-family: Jaffna;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.portenLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 170px;
+}
+
+.portenRight p {
+    font-family: Jaffna;
+    font-style: normal;
+    padding: 10px;
+    color: rgba(150, 150, 150, 1)
+}
+
+.portenRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    padding: 10px;
+}
+
+.portenRight img {
+    padding: 10px;
+}
+
+.bigImg {
+    background-repeat: no-repeat;
+    background: url('./assets/img/Rectangle\ 5.png');
+    overflow: hidden;
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+}
+
+.whiteBox {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 4px solid #FFFFFF;
+    width: 280px;
+    height: 280px;
+    margin-left: 540px;
+    margin-top: 85px;
+
+}
+
+.whiteBox p {
+    color: #FFFFFF;
+}
+
+.p1 {
+    font-family: Jaffna;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 76px;
+    text-align: center;
+}
+
+.p2 {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.p3 {
+    border: 2px solid #FFFFFF;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.p4 {
+    margin-left: 420px;
+    width: 550px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.twoBlock {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainClock {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    width: 55%;
+    height: 550px;
+}
+
+.newColection {
+    background: url(./assets/img/Rectangle\ 8.png);
+    width: 45%;
+    height: 550px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Playfair Display;
+    src: url(./assets/fonts/Playfair\ Display;/#0F0F0F) format('truetype');
+}
+
+.head {
+    margin-top: 50px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.border {
+    border: 1px solid #FFFFFF;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.clock {
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.clock1 {
+    width: 160px;
+    height: 250px;
+    background-color: #191B1C;
+}
+
+.clock2 {
+    width: 160px;
+    height: 250px;
+    margin-left: 60px;
+    background-color: #191B1C;
+}
+
+.clock3 {
+    width: 160px;
+    height: 250px;
+    margin-left: 60px;
+    background-color: #191B1C;
+}
+
+.clockIn1 {
+    margin-top: 30px;
+    width: 150px;
+    height: 180px;
+    background: url(./assets/img/62050\ 1.png);
+    overflow: hidden;
+    background-size: cover;
+}
+
+.clockIn2 {
+    margin-top: 30px;
+    width: 150px;
+    height: 180px;
+    background: url(./assets/img/62050\ 1.png);
+    overflow: hidden;
+    background-size: cover;
+}
+
+.clockIn3 {
+    margin-top: 30px;
+    width: 150px;
+    height: 180px;
+    background: url(./assets/img/62050\ 1.png);
+    overflow: hidden;
+    background-size: cover;
+}
+
+.mainNameOfClock {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    color: #FFFFFF;
+}
+
+.nameOfClock1 {
+    font-family: Playfair Display;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 45px;
+}
+
+.nameOfClock2 {
+    font-family: Playfair Display;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 90px;
+}
+
+.nameOfClock3 {
+    font-family: Playfair Display;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 80px;
+}
+
+.nameColection {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.newCol {
+    margin-top: 350px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.borderNewCol {
+    border: 1px solid #FFFFFF;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.catalog {
+    margin-top: 40px;
+    padding: 45px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.twoBlock2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgBack {
+    background: url(./assets/img/Rectangle\ 9.png);
+    height: 550px;
+    width: 4165px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.text {
+    height: 550px;
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colection {
+    margin-top: 30px;
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.borderCol {
+    border: 1px solid #FFFFFF;
+    margin-top: 30px;
+    width: 80px;
+}
+
+.bigTExt {
+    margin-top: 100px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.button {
+    margin-top: 100px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-color: #969696;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.manyClock {
+    background-color: #000000;
+    height: 870px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new {
+    margin-top: 50px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+.borderNew {
+    border: 1px solid #FFFFFF;
+    margin-top: 40px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.manyClocks1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+
+.clocks {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 200px;
+
+}
+
+.backgroundClock {
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+    background-color: #969696;
+}
+
+.imgClock {
+    background: url(./assets/img/62050\ 1.png);
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 180px;
+}
+
+.mainP {
+    font-family: Playfair Display;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 10px;
+}
+
+.smallP {
+    font-family: Playfair Display;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.brand {
+    height: 362px;
+    background: #0F0F0F;
+    display: flex;
+    flex-direction: column;
+}
+
+.ourBrand {
+    margin-top: 80px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.borderBrand {
+    border: 1px solid #FFFFFF;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 30px;
+}
+
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logotyp1 {
+    height: 100px;
+    width: 200px;
+    background: url(./assets/img/Rectangle\ 13.png);
+    margin-left: 20px;
+}
+
+.logotyp2 {
+    height: 100px;
+    width: 200px;
+    background: url(./assets/img/Rectangle\ 13.png);
+    margin-left: 20px;
+}
+
+.logotyp3 {
+    height: 100px;
+    width: 200px;
+    background: url(./assets/img/Rectangle\ 13.png);
+    margin-left: 20px;
+}
+
+.logotyp4 {
+    height: 100px;
+    width: 200px;
+    background: url(./assets/img/Rectangle\ 13.png);
+    margin-left: 20px;
+}
+
+.menBackground {
+    background: url(./assets/img/Rectangle\ 16.png);
+    height: 320px;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.magazineAboot {
+    height: 250px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.magazine {
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.textMagazine {
+    margin-top: 20px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 400px;
+    margin-top: 50px;
+
+}
+
+.categoriya {
+    margin-left: 25px;
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.categoriya1 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    /* padding-left: 10px; */
+}
+
+.buttonCategoriya {
+    background-color: #000000;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #D0D0D0;
+}
+
+.mailings {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 500px;
+    margin: 50px;
+}
+
+.mailing {
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.textMailing {
+    margin-top: 20px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.buttonMailing {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonMailing1 {
+    background: rgba(255, 255, 255, 0.4);
+    height: 42px;
+    width: 200px;
+}
+
+.buttonMailing2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #0F0F0F;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.fotter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.fotterLeft {
+    width: 50%;
+}
