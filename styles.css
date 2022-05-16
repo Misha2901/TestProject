@@ -8,6 +8,16 @@
     src: url('./assets/fonts/postnobillsjaffna/PostNoBillsJaffna-Medium.ttf') format('truetype')
 }
 
+@font-face {
+    font-family: Playfair Display;
+    src: url('./assets/fonts/Playfair\ Display; /static/PlayfairDisplay-MediumItalic.ttf') format('truetype');
+
+}
+
+body {
+    margin: 0px;
+}
+
 .header {
     height: 44px;
     width: 100%;
@@ -95,21 +105,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 170px;
+    width: 50%;
 }
 
-.portenRight p {
+.portenRight button {
     font-family: Jaffna;
     font-style: normal;
     padding: 10px;
+    background: #0F0F0F;
+    border: none;
     color: rgba(150, 150, 150, 1)
+}
+
+.buttonHeader2:hover {
+    background-color: #191B1C;
 }
 
 .portenRight {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 400px;
+    width: 50%;
     padding: 10px;
 }
 
@@ -118,24 +134,30 @@
 }
 
 .bigImg {
-    background-repeat: no-repeat;
+
     background: url('./assets/img/Rectangle\ 5.png');
     overflow: hidden;
-    height: 550px;
+    background-repeat: no-repeat;
+    max-height: 810px;
     width: 100%;
+    height: 100%;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .whiteBox {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     box-sizing: border-box;
     border: 4px solid #FFFFFF;
     width: 280px;
     height: 280px;
-    margin-left: 540px;
-    margin-top: 85px;
-
+    margin-top: 20px;
 }
 
 .whiteBox p {
@@ -162,14 +184,12 @@
 }
 
 .p3 {
-    border: 2px solid #FFFFFF;
-    margin-left: 20px;
-    margin-right: 20px;
+    border: 1px solid #FFFFFF;
+    width: 50px;
 }
 
 .p4 {
-    margin-left: 420px;
-    width: 550px;
+    width: 650px;
     font-family: PT Sans;
     font-style: normal;
     font-weight: 400;
@@ -188,9 +208,11 @@
 .mainClock {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #000000;
     width: 55%;
     height: 550px;
+
 }
 
 .newColection {
@@ -201,10 +223,7 @@
     background-size: cover;
 }
 
-@font-face {
-    font-family: Playfair Display;
-    src: url(./assets/fonts/Playfair\ Display;/#0F0F0F) format('truetype');
-}
+
 
 .head {
     margin-top: 50px;
@@ -219,40 +238,29 @@
 
 .border {
     border: 1px solid #FFFFFF;
-    margin-top: 20px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin: 30px 0px;
+    width: 80px;
 }
 
 .clock {
     display: flex;
     flex-direction: row;
-    margin-left: 70px;
-    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
 }
 
 .clock1 {
     width: 160px;
     height: 250px;
+    margin: 15px;
     background-color: #191B1C;
-}
-
-.clock2 {
-    width: 160px;
-    height: 250px;
-    margin-left: 60px;
-    background-color: #191B1C;
-}
-
-.clock3 {
-    width: 160px;
-    height: 250px;
-    margin-left: 60px;
-    background-color: #191B1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .clockIn1 {
-    margin-top: 30px;
     width: 150px;
     height: 180px;
     background: url(./assets/img/62050\ 1.png);
@@ -260,60 +268,39 @@
     background-size: cover;
 }
 
-.clockIn2 {
-    margin-top: 30px;
-    width: 150px;
-    height: 180px;
-    background: url(./assets/img/62050\ 1.png);
-    overflow: hidden;
-    background-size: cover;
-}
 
-.clockIn3 {
-    margin-top: 30px;
-    width: 150px;
-    height: 180px;
-    background: url(./assets/img/62050\ 1.png);
-    overflow: hidden;
-    background-size: cover;
-}
-
-.mainNameOfClock {
+.nameOfColection {
     display: flex;
-    flex-direction: row;
-    margin: 30px;
-    color: #FFFFFF;
-}
-
-.nameOfClock1 {
+    flex-direction: column;
     font-family: Playfair Display;
     font-size: 18px;
     line-height: 21px;
-    margin-left: 45px;
+
 }
 
-.nameOfClock2 {
-    font-family: Playfair Display;
-    font-size: 18px;
-    line-height: 21px;
-    margin-left: 90px;
-}
-
-.nameOfClock3 {
-    font-family: Playfair Display;
-    font-size: 18px;
-    line-height: 21px;
-    margin-left: 80px;
+.mainCLOCK {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .nameColection {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: #FFFFFF;
 }
 
+.newColection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .newCol {
-    margin-top: 350px;
     font-family: Playfair Display;
     font-weight: 700;
     font-size: 36px;
@@ -324,14 +311,15 @@
 
 .borderNewCol {
     border: 1px solid #FFFFFF;
-    margin-top: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    width: 100px;
+    margin: 30px;
+
 }
 
 .catalog {
-    margin-top: 40px;
-    padding: 45px;
+    background: #11ffee00;
+    padding: 5px 15px;
+    border: 1px solid #FFFFFF;
     font-family: PT Sans;
     font-style: normal;
     font-weight: 400;
@@ -341,36 +329,35 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
 }
 
 .twoBlock2 {
     display: flex;
     flex-direction: row;
+    height: 550px;
 }
 
 .imgBack {
     background: url(./assets/img/Rectangle\ 9.png);
-    height: 550px;
-    width: 4165px;
+    height: 100%;
+    width: 45%;
     overflow: hidden;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 .text {
-    height: 550px;
+    width: 55%;
     background-color: #000000;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .colection {
-    margin-top: 30px;
+
     font-family: Playfair Display;
     font-weight: 400;
     font-size: 36px;
@@ -381,12 +368,13 @@
 
 .borderCol {
     border: 1px solid #FFFFFF;
-    margin-top: 30px;
-    width: 80px;
+    margin: 20px;
+    width: 120px;
 }
 
 .bigTExt {
-    margin-top: 100px;
+    width: 471px;
+    height: 173px;
     font-family: PT Sans;
     font-style: normal;
     font-weight: 400;
@@ -396,7 +384,10 @@
 }
 
 .button {
-    margin-top: 100px;
+    background-color: #000000;
+    padding: 5px 20px;
+    border: 1px solid #FFFFFF;
+    margin-top: 20px;
     font-family: PT Sans;
     font-style: normal;
     font-weight: 400;
@@ -405,9 +396,7 @@
     text-align: center;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    border-color: #969696;
     color: #FFFFFF;
-    background-color: #000000;
 }
 
 .manyClock {
@@ -417,10 +406,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .new {
-    margin-top: 50px;
+
     font-family: Playfair Display;
     font-weight: 700;
     font-size: 36px;
@@ -430,22 +420,24 @@
 
 .borderNew {
     border: 1px solid #FFFFFF;
-    margin-top: 40px;
+    margin: 20px;
     width: 300px;
-    margin-bottom: 30px;
 }
 
 .manyClocks1 {
     display: flex;
     flex-direction: row;
-    margin-left: 70px;
-    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .clocks {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
     height: 300px;
     width: 200px;
 
@@ -472,19 +464,22 @@
 .mainP {
     font-family: Playfair Display;
     text-align: left;
-    font-weight: 400;
+    font-family: Playfair Display;
     font-size: 18px;
     line-height: 21px;
-    margin-left: 10px;
+    color: #FFFFFF;
+
 }
 
 .smallP {
     font-family: Playfair Display;
     text-align: left;
-    margin-left: 10px;
-    font-weight: 700;
+    font-family: Playfair Display;
     font-size: 16px;
     line-height: 19px;
+    color: #D0D0D0;
+
+
 }
 
 .brand {
@@ -492,10 +487,11 @@
     background: #0F0F0F;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .ourBrand {
-    margin-top: 80px;
     font-family: Playfair Display;
     font-weight: 700;
     font-size: 36px;
@@ -507,9 +503,8 @@
 
 .borderBrand {
     border: 1px solid #FFFFFF;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: 30px;
+    width: 80px;
+    margin: 20px;
 }
 
 
@@ -517,39 +512,18 @@
 .logo {
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
     align-items: center;
     justify-content: center;
 
 }
 
-.logotyp1 {
+.logotyp {
     height: 100px;
     width: 200px;
     background: url(./assets/img/Rectangle\ 13.png);
-    margin-left: 20px;
+
 }
 
-.logotyp2 {
-    height: 100px;
-    width: 200px;
-    background: url(./assets/img/Rectangle\ 13.png);
-    margin-left: 20px;
-}
-
-.logotyp3 {
-    height: 100px;
-    width: 200px;
-    background: url(./assets/img/Rectangle\ 13.png);
-    margin-left: 20px;
-}
-
-.logotyp4 {
-    height: 100px;
-    width: 200px;
-    background: url(./assets/img/Rectangle\ 13.png);
-    margin-left: 20px;
-}
 
 .menBackground {
     background: url(./assets/img/Rectangle\ 16.png);
@@ -558,16 +532,23 @@
     background-size: cover;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .magazineAboot {
     height: 250px;
-    width: 400px;
-    margin-left: 200px;
-    margin-top: 50px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
 }
 
 .magazine {
+    text-align: center;
     font-family: Playfair Display;
     font-weight: 400;
     font-size: 24px;
@@ -577,6 +558,7 @@
 }
 
 .textMagazine {
+    text-align: right;
     margin-top: 20px;
     font-family: PT Sans;
     font-style: normal;
@@ -589,14 +571,15 @@
 .categories {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: 250px;
-    width: 400px;
-    margin-top: 50px;
+    width: 30%;
+
 
 }
 
 .categoriya {
-    margin-left: 25px;
+    text-align: left;
     font-family: Playfair Display;
     font-weight: 400;
     font-size: 24px;
@@ -609,10 +592,11 @@
     display: flex;
     flex-direction: row;
     margin: 10px;
-    /* padding-left: 10px; */
+
 }
 
 .buttonCategoriya {
+    border: #000000;
     background-color: #000000;
     margin-left: 10px;
     display: flex;
@@ -630,12 +614,14 @@
 .mailings {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: 250px;
-    width: 500px;
-    margin: 50px;
+    width: 35%;
+
 }
 
 .mailing {
+    text-align: left;
     font-family: Playfair Display;
     font-weight: 400;
     font-size: 24px;
@@ -645,7 +631,7 @@
 }
 
 .textMailing {
-    margin-top: 20px;
+
     font-family: PT Sans;
     font-style: normal;
     font-weight: 400;
@@ -655,18 +641,24 @@
 }
 
 .buttonMailing {
-    margin-top: 20px;
+
     display: flex;
     flex-direction: row;
 }
 
 .buttonMailing1 {
     background: rgba(255, 255, 255, 0.4);
+    border: rgba(255, 255, 255, 0.4);
+    color: #FFFFFF;
+    text-align: left;
+    padding: 10px;
     height: 42px;
     width: 200px;
 }
 
 .buttonMailing2 {
+    border: #0F0F0F;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
